@@ -1,0 +1,23 @@
+#title {
+    font-family: LillyBelle;
+    text-align: center;
+    font-size: 80px;
+    margin: 8px;
+}
+
+#logo {
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#broski {
+    width: 100%;
+}
+
+.gallery {
+    width: 33%;
+    float: left;
+    margin: 1.5px;
+}
