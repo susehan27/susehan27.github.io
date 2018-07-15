@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link src="assets/css/fonts/SweetPea.ttf">
+    <title>about</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col" id="header">
+                <nav class="nav nav-justified">
+                <a class="nav-link active" href="index.html">SUSANNA HAN</a>
+                <a class="nav-link" href="blog.html">blog</a>
+                <a class="nav-link" href="projects.html">projects</a>
+                <a class="nav-link" href="about.html">about</a>
+                </nav>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p>I'm Susanna! I'm currently a fourth year at Drexel taking a break from classes to figure out the next steps in my life! I'm currently enrolled in the Penn LPS Coding Boot Camp and it's been such a great experience so far! I'm so thankful that I have this opportunity to learn something new and I'm enjoying the all the challenges that came with it so far. Front-end development iss becoming something I'm growing an interest in pursuing in the future. It gives me a chance to incorporate my enthusiasm for design and aesthetics.</p>
+            <p>As for my life outside of coding, I like doing a little bit of everything, especially for things related to the arts. I enjoy photography and will try to go on a photography session every once in a while exploring different parts of the city. I also enjoy videography but mostly for when I happen to go on a trip somewhere. The last hobby that I had, which was a couple months back, was making calligraphy art with brush pens. Music has always been a huge passion of mine. I love finding new music, playing music, and singing as well.</p>
+            <hr class="my-4">
+            <button class="btn-dark btn" onclick="myFunction()">Contact Me</button>
+            <div id="myDIV" display="none">
+                <form>
+                    <div class="form-group">
+                        <label for="nameInput">Name</label>
+                        <input type="text" class="form-control" id="formName" placeholder="First and Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailInput">Email</label>
+                        <input type="text" class="form-control" id="formEmail" placeholder="example@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage">Message</label>
+                        <textarea class="form-control" id="formMessage" rows="3" placeholder="Type any message here!"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        
+    </script>
+</body>
+</html>

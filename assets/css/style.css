@@ -1,23 +1,65 @@
-#title {
-    font-family: LillyBelle;
-    text-align: center;
-    font-size: 80px;
-    margin: 8px;
+body {
+    background-color: #f8f8f8;
+    height: auto;
+    position: relative;
+    font-family: TheLightFont;
 }
 
-#logo {
-    font-family: 'Cutive Mono', monospace;
+#container {
+    display: block;
+    margin: auto;
+}
+
+#blogTitle {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    margin: 10px;
 }
 
-#broski {
+#projects {
+    padding: 20px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card-img-top {
+    width: 286px;
+    height: 100px;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    border: none;
+    width: 25%;
+}
+
+@font-face { 
+    font-family: SweetPea; 
+    src: url(../fonts/SweetPea.ttf);
+}
+
+@font-face {
+    font-family: TheLightFont;
+    src: url(../fonts/TheLightFont.ttf);
+}
+
+.nav, .nav-link {
+    font-family: TheLightFont;
+    background: none;
+    color: #262626;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: none;
+    color: #324470;
+}
+
+#carousel {
     width: 100%;
-}
-
-.gallery {
-    width: 33%;
-    float: left;
-    margin: 1.5px;
+    display: block;
+    margin: auto;
 }
