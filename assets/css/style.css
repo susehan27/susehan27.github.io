@@ -17,6 +17,10 @@ body {
 }
 
 #projects {
+    padding: 30px;
+}
+
+.cards {
     padding: 20px;
 }
 
