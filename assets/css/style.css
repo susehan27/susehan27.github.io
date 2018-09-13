@@ -76,3 +76,20 @@ a:hover {
     display: block;
     margin: auto;
 }
+
+.bio, .card-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.info {
+    font-size: 20px;
+}
+
+a:hover {
+    color: black;
+}
+
+a {
+    color: grey;
+}
