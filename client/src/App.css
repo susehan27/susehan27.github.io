@@ -1,0 +1,61 @@
+.mono {
+  font-family: 'Major Mono Display', monospace;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.sacramento {
+  font-family: 'Sacramento', cursive;
+}
+
+.black {
+  color: black;
+}
+
+.lgray {
+  color: #b3b3b2;
+}
+
+.gray, .gray:hover {
+  color: #262626;
+}
+
+.yellow {
+  color: #faf5b0;
+}
+
+.blue {
+  color: #61a0ec;
+}
+
+.purple {
+  color: #ac89ff;
+}
+
+.white {
+  color: white;
+}
+
+.rasa {
+  font-family: 'Rasa', serif;
+}
+
+.rmono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.oswaldl {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+.oswaldb {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+
+.robotoc {
+  font-family: 'Roboto Condensed', sans-serif;
+}

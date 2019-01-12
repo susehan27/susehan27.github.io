@@ -1,0 +1,30 @@
+{
+  "name": "porfortlio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susehan27/susehan27.github.io.git"
+  },
+  "author": "Susanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susehan27/susehan27.github.io/issues"
+  },
+  "homepage": "https://github.com/susehan27/susehan27.github.io#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0"
+  },
+  "proxy": "http://localhost:5000"
+}
