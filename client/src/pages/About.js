@@ -11,7 +11,7 @@ class About extends Component {
                     </div>
                     <div className="card" style={{overflow: "scroll", margin: "15px", padding: "20px", backgroundColor: "#343432", height: "80vh", width: "30vh"}}>
                         <h1 className="white oswaldb">SUSANNA HAN</h1>
-                        <p className="white rasa">I am a new full stack web developer looking for opportunities in the Philly area! I have special interest in front-end development but my main goal is to build simple and unique websites! <br></br><br></br>My coding skills include: HTML, CSS, JavaScript, jQuery, React, Express, Node, MongoDB/Mongoose, MySQL/Sequelize</p>
+                        <p className="white rasa">I am a new full stack web developer looking for opportunities in the Philly area! I have special interest in front-end development and my main goal is to build simple and unique websites! <br></br><br></br>My coding skills include: HTML, CSS, JavaScript, jQuery, React, Express, Node, MongoDB/Mongoose, MySQL/Sequelize</p>
                     </div>
                     <div className="d-flex flex-column">
                     <div className="card" style={{margin: "15px", padding: "20px", backgroundImage: `url(${lantern})`, backgroundSize: "cover", backgroundPosition: "center", height: "38vh", width: "30vh"}}>   
