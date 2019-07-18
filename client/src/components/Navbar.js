@@ -4,8 +4,8 @@ import {Link} from "react-router-dom";
 class Navbar extends Component {
     render() {
         return(
-            <div className="col-md-2" style={{height: "100vh", height: "100vh", display: "flex", alignItems: "center"}}>
-                <nav class="navbar-fixed flex-column" style={{position: "fixed", padding: "50px", float: "right", textAlign: "right"}}>
+            <div className="col-md-12">
+                <nav className="navbar navbar-expand-lg" style={{ position: "sticky", padding: "40px"}}>
                     
                         <Link
                             to="/"

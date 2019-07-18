@@ -3,9 +3,11 @@ import profile from "./images/profile1.jpg";
 import lantern from "./images/lantern.jpg";
 
 class About extends Component {
+    
+
     render() {
         return(
-            <div className="col-md-10" style={{height: "100vh", width: "100vh", display: "flex", alignItems: "center"}}>
+            <div className="col-md-12" style={{display: "flex", alignItems: "center"}}>
                 <div className="row">
                     <div className="card" style={{margin: "15px", padding: "20px", backgroundImage: `url(${profile})`, backgroundSize: "cover", backgroundPosition: "center", height: "80vh", width: "30vh"}}>
                     </div>
@@ -20,8 +22,8 @@ class About extends Component {
                         <a className="btn white robotoc" href="https://www.linkedin.com/in/susehan" style={{margin: "8px", backgroundColor: "#1178b3"}}>LinkedIn</a>
                         <a className="btn white robotoc" href="https://github.com/susehan27/" style={{margin: "8px", backgroundColor: "#24292d"}}>GitHub</a>
                         <a className="btn white robotoc" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style={{margin: "8px", backgroundColor: "#ff7456"}}>Email</a>
-                        <div class="collapse" id="collapseExample">
-                            <div class="card card-body rasa" style={{fontSize: "14px", padding: "5px", textAlign: "center"}}>
+                        <div className="collapse" id="collapseExample">
+                            <div className="card card-body rasa" style={{fontSize: "14px", padding: "5px", textAlign: "center"}}>
                                 <p>susannahan27@gmail.com</p>
                             </div>
                         </div>
