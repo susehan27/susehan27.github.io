@@ -1,0 +1,262 @@
+html {
+    background: #f2f2f2;
+}
+
+body {
+    font-family: PostBoxRegular;
+}
+
+p {
+    color: #2e2e2e;
+}
+
+.postbox {
+	font-family: PostBoxRegular;
+}
+
+.scroll-container, .scroll-area {
+    max-width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.scroll-container {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    background-color: #bbb5a7;
+    scroll-behavior: smooth;
+}
+
+.scroll-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    margin: auto;
+}
+
+.home {
+    background: #F1EFE9;
+    background-image: url("../images/billie-holiday.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    width: 90vw;
+    border-radius: 30px;
+    padding: 50px;
+    position: relative;
+}
+
+.projects {
+    background-color: #bbb5a7;
+    border-radius: 30px;
+    display: grid;
+    grid-auto-flow: column;
+    height: 80vh;
+    width: 90vw;
+    gap: 20px;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    flex-direction: row;
+    position: relative;
+}
+
+.skills {
+    background: #748689;
+    align-items: center;
+    height: 80vh;
+    width: 90vw;
+    padding: 50px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.skills .btn {
+    margin: 20px;
+    align-items: center;
+}
+
+#skillsName {
+    font-size: 30px;
+}
+
+.other {
+    background: #F1EFE9;
+    color:#2e2e2e;
+    font-size: 30px;
+    height: 80vh;
+    width: 90vw;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    overflow: auto;
+}
+
+.project {
+    display: flex;
+    background: blue;
+    color: black;
+    padding: 20px;
+    width: 60vw;
+    height: 70vh;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    align-self: flex-end;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.about {
+    background: #E0DBD9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    width: 90vw;
+    border-radius: 30px;
+    position: relative;
+}
+
+.box {
+    box-shadow:
+    0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 6px 8px rgba(0,0,0,0.11),
+    0 8px 16px rgba(0,0,0,0.11);
+}
+
+.project {
+    box-shadow:
+    0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 6px 8px rgba(0,0,0,0.11),
+    0 8px 16px rgba(0,0,0,0.11);
+}
+
+#projectName {
+    top: 20px;
+    margin-left: 20px;
+    position: absolutefa;
+    font-size: 30px;
+}
+
+.intro {
+    padding: 20px;
+    font-size: 35px;
+    max-width: 70vw;
+}
+
+.name {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    font-size: 20px;
+    z-index: 500;
+}
+
+.checkBox {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.projectGo {
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+    color: #2e2e2e;
+    font-size: 20px;
+    text-decoration: underline;
+    z-index: 500;
+}
+
+.cred {
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+    color: #f2f2f2;
+    font-size: 20px;
+    z-index: 500;
+}
+
+.fa-heart {
+    font-size: 15px;
+    z-index: 500;
+}
+
+.fa-face-smile {
+    font-size: 15px;
+    z-index: 500;
+}
+
+a {
+    color: #2e2e2e;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #2e2e2e;
+    text-decoration: wavy underline;
+    text-decoration-color: #748689;
+}
+
+.dropdown {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    z-index: 500;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.dropbtn {
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-align: right;
+    right: 0px;
+}
+
+.dropbtn img {
+    width: 20px;
+}
+
+.julies {
+    background-color: #F9CD6B;
+}
+
+.project .card a {
+    font-size: 12px;
+}
+
+.socials, .socials a {
+    font-size: 25px;
+    color: #2e2e2e;
+}
+
+.other .card {
+    max-width: 280px;
+    margin: 10px;
+}
+
+.crystals {
+    background-color: #FF4D88;
+}
+
+.other .card a {
+    font-size: 20px;
+    padding: 10px;
+}
