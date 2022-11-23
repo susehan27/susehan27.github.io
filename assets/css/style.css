@@ -73,6 +73,7 @@ p {
     padding: 50px;
     border-radius: 30px;
     position: relative;
+    overflow: scroll;
 }
 
 .skills .btn {
